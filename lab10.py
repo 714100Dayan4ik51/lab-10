@@ -2,7 +2,7 @@ import random
 import logging
 
 # Настройка логгирования
-logging.basicConfig(filename='guessing_game.log', level=logging.INFO, format = '%(asctime)s - %(message)s')
+logging.basicConfig(filename='guessing_game.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
 
 def guess_number(N, k):
@@ -21,8 +21,23 @@ def guess_number(N, k):
             print("Загаданное число меньше.")
             logging.info("Загаданное число меньше введенного чсла пользователя.")
         else:
-            print("Вы угадали! Поздравляю!")
+            print("Вы угадали! Поздравляем!")
             logging.info("Пользователь угадал число.")
+            return
+
     print("Попытки закончились. Загаданное число:", secret_number)
     logging.info("Закончились попытки.")
 
+
+try:
+    N = int(input("Введите верхнюю границу диапазона (целое число): "))
+    k = int(input("Введите количество попыток (целое число): "))
+    logging.info(f"Введена верхняя граница N: {N}")
+    logging.info(f"Введенно количество попыток k: {k}")
+    guess_number(N, k)
+except ValueError:
+    print("Ошибка ввода. Пожалуйста, введите целое число.")
+    logging.error("Ошибка ввода.")
+except Exception as e:
+    print("Произошла ошибка:", e)
+    logging.error("Произошла ошибка.")
