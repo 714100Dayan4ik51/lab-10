@@ -18,4 +18,8 @@
 
 #### Тесты:
 
-![test](
+![test](https://github.com/714100Dayan4ik51/lab-10/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-11-23%20160805.png?raw=true)
+
+![test](https://github.com/714100Dayan4ik51/lab-10/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-11-23%20160857.png?raw=true)
+
+![test](https://github.com/714100Dayan4ik51/lab-10/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-11-23%20161149.png?raw=true)
