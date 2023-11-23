@@ -36,7 +36,7 @@ try:
     logging.info(f"Введенно количество попыток k: {k}")
     guess_number(N, k)
 except ValueError:
-    print("Ошибка ввода. Пожалуйста, введите целое число.")
+    print("Ошибка ввода. Пожалуйста, введите целое число и неотрицательное.")
     logging.error("Ошибка ввода.")
 except Exception as e:
     print("Произошла ошибка:", e)
